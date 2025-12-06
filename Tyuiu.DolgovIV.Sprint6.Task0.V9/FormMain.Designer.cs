@@ -139,7 +139,7 @@
             buttonDone_DIV.Name = "buttonDone_DIV";
             buttonDone_DIV.Size = new Size(142, 41);
             buttonDone_DIV.TabIndex = 6;
-            buttonDone_DIV.Text = "button1";
+            buttonDone_DIV.Text = "Выполнить";
             buttonDone_DIV.UseVisualStyleBackColor = true;
             buttonDone_DIV.Click += buttonDone_Click;
             // 
@@ -147,9 +147,9 @@
             // 
             buttonMessage_DIV.FlatStyle = FlatStyle.Flat;
             buttonMessage_DIV.Font = new Font("Segoe UI", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            buttonMessage_DIV.Location = new Point(532, 380);
+            buttonMessage_DIV.Location = new Point(545, 380);
             buttonMessage_DIV.Name = "buttonMessage_DIV";
-            buttonMessage_DIV.Size = new Size(48, 41);
+            buttonMessage_DIV.Size = new Size(43, 41);
             buttonMessage_DIV.TabIndex = 7;
             buttonMessage_DIV.Text = "?";
             buttonMessage_DIV.UseVisualStyleBackColor = true;
@@ -169,7 +169,7 @@
             MinimizeBox = false;
             Name = "FormMain";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Form1";
+            Text = "Спринт 6 | Таск 0 | Вариант 9 | Долгов И.В.";
             ((System.ComponentModel.ISupportInitialize)pictureBoxTaskFormula_DIV).EndInit();
             groupBoxTask_DIV.ResumeLayout(false);
             groupBoxTask_DIV.PerformLayout();
