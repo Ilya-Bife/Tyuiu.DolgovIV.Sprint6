@@ -74,6 +74,7 @@
             groupBoxTask_DIV.TabIndex = 2;
             groupBoxTask_DIV.TabStop = false;
             groupBoxTask_DIV.Text = "Условие";
+            groupBoxTask_DIV.Enter += groupBoxTask_DIV_Enter;
             // 
             // textBoxTask_DIV
             // 
@@ -170,6 +171,7 @@
             Name = "FormMain";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Спринт 6 | Таск 0 | Вариант 9 | Долгов И.В.";
+            Load += FormMain_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBoxTaskFormula_DIV).EndInit();
             groupBoxTask_DIV.ResumeLayout(false);
             groupBoxTask_DIV.PerformLayout();
