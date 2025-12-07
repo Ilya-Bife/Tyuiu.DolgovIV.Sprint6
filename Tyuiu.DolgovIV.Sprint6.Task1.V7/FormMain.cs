@@ -53,5 +53,10 @@ namespace Tyuiu.DolgovIV.Sprint6.Task1.V7
         {
             MessageBox.Show("Таск 1. Выполнил студент группы АСОиУБ-25-1 Долгов Илья Витальевич", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Question);
         }
+
+        private void groupBoxTask_DIV_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }
