@@ -1,6 +1,6 @@
-﻿using Tyuiu.Sprint6.DolgovIV.Task2.V10.Lib;
+﻿using Tyuiu.DolgovIV.Sprint6.Task2.V10.Lib;
 
-namespace Tyuiu.Sprint6.DolgovIV.Task2.V10.Test
+namespace Tyuiu.DolgovIV.Sprint6.Task2.V10.Test
 {
     [TestClass]
     public sealed class DataServiceTest

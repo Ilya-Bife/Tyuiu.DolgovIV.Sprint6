@@ -1,4 +1,4 @@
-namespace Tyuiu.Sprint6.DolgovIV.Task2.V10
+namespace Tyuiu.DolgovIV.Sprint6.Task2.V10
 {
     internal static class Program
     {

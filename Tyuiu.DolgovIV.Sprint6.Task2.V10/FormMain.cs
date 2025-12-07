@@ -1,6 +1,6 @@
-using Tyuiu.Sprint6.DolgovIV.Task2.V10.Lib;
+using Tyuiu.DolgovIV.Sprint6.Task2.V10.Lib;
 
-namespace Tyuiu.Sprint6.DolgovIV.Task2.V10
+namespace Tyuiu.DolgovIV.Sprint6.Task2.V10
 {
     public partial class FormMain_DIV : Form
     {
@@ -10,8 +10,11 @@ namespace Tyuiu.Sprint6.DolgovIV.Task2.V10
             InitializeComponent();
             buttonDone_DIV.BackColor = Color.Green;
         }
-        
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
         private void buttonDone_Click(object sender, EventArgs e)
         {
             try
