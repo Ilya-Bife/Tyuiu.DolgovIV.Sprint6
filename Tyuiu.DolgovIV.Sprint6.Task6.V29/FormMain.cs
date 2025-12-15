@@ -29,8 +29,7 @@ namespace Tyuiu.DolgovIV.Sprint6.Task6.V29
 
         private void buttonHelp_SAA_Click(object sender, EventArgs e)
         {
-            FormAbout formAbout = new FormAbout();
-            formAbout.ShowDialog();
+            
         }
 
         private void textBoxTask_SAA_TextChanged(object sender, EventArgs e)
