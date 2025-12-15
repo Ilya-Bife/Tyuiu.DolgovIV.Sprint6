@@ -1,4 +1,6 @@
-﻿using tyuiu.cources.programming.interfaces.Sprint6;
+﻿
+using tyuiu.cources.programming.interfaces.Sprint6;
+
 
 namespace Tyuiu.DolgovIV.Sprint6.Task6.V29.Lib
 {
@@ -7,18 +9,16 @@ namespace Tyuiu.DolgovIV.Sprint6.Task6.V29.Lib
         public string CollectTextFromFile(string path)
         {
             string resStr = "";
-
-            using (StreamReader reader = new StreamReader(path))
+            char ch = 'i';
+            string[] words = File.ReadAllText(path).Split(' ');
+            foreach (string word in words)
             {
-                string line;
-                while((line = reader.ReadLine()) != null)
+                if (word.Contains(ch))
                 {
-                    if (line.Contains("i"))
-                    {
-                        resStr = resStr + " " + line; 
-                    }
+                    resStr += " " + word;
                 }
             }
+
             return resStr;
         }
     }
