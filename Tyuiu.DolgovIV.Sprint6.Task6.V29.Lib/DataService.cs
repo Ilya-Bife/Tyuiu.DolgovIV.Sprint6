@@ -17,7 +17,9 @@ namespace Tyuiu.DolgovIV.Sprint6.Task6.V29.Lib
                 {
                     resStr +=  word + " ";
                 }
+                
             }
+            resStr = resStr.Substring(0, resStr.Length - 1);
 
             return resStr;
         }
