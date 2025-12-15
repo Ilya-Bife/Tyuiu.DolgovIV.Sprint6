@@ -30,6 +30,7 @@
         {
             textBoxInput = new TextBox();
             textBoxOutput = new TextBox();
+            buttonDone = new Button();
             SuspendLayout();
             // 
             // textBoxInput
@@ -48,11 +49,22 @@
             textBoxOutput.Size = new Size(288, 208);
             textBoxOutput.TabIndex = 1;
             // 
+            // buttonDone
+            // 
+            buttonDone.Location = new Point(534, 62);
+            buttonDone.Name = "buttonDone";
+            buttonDone.Size = new Size(96, 55);
+            buttonDone.TabIndex = 2;
+            buttonDone.Text = "Выполнить";
+            buttonDone.UseVisualStyleBackColor = true;
+            buttonDone.Click += buttonDone_Click;
+            // 
             // FormMain
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(buttonDone);
             Controls.Add(textBoxOutput);
             Controls.Add(textBoxInput);
             Name = "FormMain";
@@ -65,5 +77,6 @@
 
         private TextBox textBoxInput;
         private TextBox textBoxOutput;
+        private Button buttonDone;
     }
 }
