@@ -138,6 +138,7 @@
             groupBoxTask_DIV.TabIndex = 10;
             groupBoxTask_DIV.TabStop = false;
             groupBoxTask_DIV.Text = "Условие";
+            groupBoxTask_DIV.Enter += groupBoxTask_DIV_Enter;
             // 
             // textBoxTask_DIV
             // 

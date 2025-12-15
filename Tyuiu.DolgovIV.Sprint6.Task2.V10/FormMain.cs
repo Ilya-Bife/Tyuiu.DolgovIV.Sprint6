@@ -63,5 +63,10 @@ namespace Tyuiu.DolgovIV.Sprint6.Task2.V10
         {
             buttonDone_DIV.BackColor = Color.Blue;
         }
+
+        private void groupBoxTask_DIV_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }
