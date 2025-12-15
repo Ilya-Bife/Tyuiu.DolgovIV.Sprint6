@@ -15,7 +15,7 @@ namespace Tyuiu.DolgovIV.Sprint6.Task6.V29.Lib
             {
                 if (word.Contains(ch))
                 {
-                    resStr += " " + word;
+                    resStr +=  word + " ";
                 }
             }
 
