@@ -101,6 +101,7 @@
             Controls.Add(groupBoxResult);
             Name = "FormMain";
             Text = "Form1";
+            Load += FormMain_Load;
             groupBoxResult.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)chartFunction).EndInit();
             ((System.ComponentModel.ISupportInitialize)dataGridViewNums).EndInit();

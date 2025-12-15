@@ -1,6 +1,8 @@
-using Tyuiu.DolgovIV.Sprint6.Task5.V9.Lib;
+using System.IO;
+using Tyuiu.DolgovIV.Sprint6.Task6.V29.Lib;
 
-namespace Tyuiu.DolgovIV.Sprint6.Task5.V9
+
+namespace Tyuiu.DolgovIV.Sprint6.Task6.V29
 {
     public partial class FormMain : Form
     {
@@ -8,10 +10,6 @@ namespace Tyuiu.DolgovIV.Sprint6.Task5.V9
         {
             InitializeComponent();
         }
-        DataService ds = new DataService();
-
-        string path = @"C:\Lessons\source\repos\Tyuiu.DolgovIV.Sprint6\Tyuiu.DolgovIV.Sprint6.Task5.V9\bin\Debug\InPutFileTask5V9.txt";
-
         private void buttonDone_Click(object sender, EventArgs e)
         {
             try
@@ -44,11 +42,6 @@ namespace Tyuiu.DolgovIV.Sprint6.Task5.V9
             {
                 MessageBox.Show("¬ведены неверные данные", "ќшибка", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
-        }
-
-        private void FormMain_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
