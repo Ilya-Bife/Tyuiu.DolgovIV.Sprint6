@@ -10,7 +10,7 @@ namespace Tyuiu.DolgovIV.Sprint6.Task7.V13.Test
         public void TestMethod1()
         {
             DataService ds = new DataService();
-            string path = @"C:\Users\AeroC\source\repos\Tyuiu.PiskulinIY.Sprint6\Tyuiu.PiskulinIY.Sprint6.Task7.V13\bin\Debug\net8.0-windows\InPutDataFileTask7V13.csv";
+            string path = @"C:\Lessons\source\repos\Tyuiu.DolgovIV.Sprint6\Tyuiu.DolgovIV.Sprint6.Task7.V13\bin\Debug\net8.0-windows\InPutDataFileTask7V13.csv";
 
 
             int[,] wait = new int[,] { {-7, 4, -14, 5, -20, -15, 111, 6,
