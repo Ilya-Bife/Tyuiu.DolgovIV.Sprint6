@@ -51,27 +51,27 @@ namespace Tyuiu.DolgovIV.Sprint6.Task7.V13
 
             array = LoadFromFileData(openFilePath);
 
-            dataGridViewInPut.ColumnCount = columns;
-            dataGridViewInPut.RowCount = rows;
-            dataGridViewOutPut.ColumnCount = columns;
-            dataGridViewOutPut.RowCount = columns;
+            dataGridViewInPut_DIV.ColumnCount = columns;
+            dataGridViewInPut_DIV.RowCount = rows;
+            dataGridViewOutPut_DIV.ColumnCount = columns;
+            dataGridViewOutPut_DIV.RowCount = columns;
 
             for (int i = 0; i <= columns; i++)
             {
-                dataGridViewInPut.Columns[i].Width = 25;
-                dataGridViewOutPut.Columns[i].Width = 25;
+                dataGridViewInPut_DIV.Columns[i].Width = 25;
+                dataGridViewOutPut_DIV.Columns[i].Width = 25;
             }
 
             for (int i = 0; i <= rows; i++)
             {
                 for (int j = 0; j < columns; j++)
                 {
-                    dataGridViewInPut.Rows[i].Cells[j].Value = array[i, j];
+                    dataGridViewInPut_DIV.Rows[i].Cells[j].Value = array[i, j];
                 }
             }
 
             array = ds.GetMatrix(openFilePath);
-            buttonResult.Enabled = true;
+            buttonResult_DIV.Enabled = true;
         }
 
         private void buttonResult_Click(object sender, EventArgs e)
@@ -83,12 +83,12 @@ namespace Tyuiu.DolgovIV.Sprint6.Task7.V13
             {
                 for (int j = 0; j < columns; j++)
                 {
-                    dataGridViewOutPut.Rows[i].Cells[j].Value = arrayValues[i, j];
+                    dataGridViewOutPut_DIV.Rows[i].Cells[j].Value = arrayValues[i, j];
 
                 }
             }
 
-            buttonSaveFile.Enabled = true;
+            buttonSaveFile_DIV.Enabled = true;
         }
 
         private void dataGridViewOutPut_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -113,8 +113,8 @@ namespace Tyuiu.DolgovIV.Sprint6.Task7.V13
 
             }
 
-            int rows = dataGridViewOutPut.RowCount;
-            int columns = dataGridViewOutPut.ColumnCount;
+            int rows = dataGridViewOutPut_DIV.RowCount;
+            int columns = dataGridViewOutPut_DIV.ColumnCount;
 
             string str = "";
             for (int i = 0; i < rows; i++)
@@ -123,12 +123,12 @@ namespace Tyuiu.DolgovIV.Sprint6.Task7.V13
                 {
                     if (j != columns - 1)
                     {
-                        str = str + dataGridViewOutPut.Rows[i].Cells[j].Value + ";";
+                        str = str + dataGridViewOutPut_DIV.Rows[i].Cells[j].Value + ";";
 
                     }
                     else
                     {
-                        str = str + dataGridViewOutPut.Rows[i].Cells[j].Value;
+                        str = str + dataGridViewOutPut_DIV.Rows[i].Cells[j].Value;
                     }
 
                 }
@@ -141,18 +141,18 @@ namespace Tyuiu.DolgovIV.Sprint6.Task7.V13
 
         private void FormMain_Load(object sender, EventArgs e)
         {
-            dataGridViewInPut.RowCount = 50;
-            dataGridViewOutPut.RowCount = 50;
+            dataGridViewInPut_DIV.RowCount = 50;
+            dataGridViewOutPut_DIV.RowCount = 50;
 
-            dataGridViewInPut.ColumnCount = 50;
-            dataGridViewOutPut.ColumnCount = 50;
+            dataGridViewInPut_DIV.ColumnCount = 50;
+            dataGridViewOutPut_DIV.ColumnCount = 50;
 
 
 
             for (int i = 0; i < 50; i++)
             {
-                dataGridViewInPut.Columns[i].Width = 25;
-                dataGridViewOutPut.Columns[i].Width = 25;
+                dataGridViewInPut_DIV.Columns[i].Width = 25;
+                dataGridViewOutPut_DIV.Columns[i].Width = 25;
             }
         }
 
