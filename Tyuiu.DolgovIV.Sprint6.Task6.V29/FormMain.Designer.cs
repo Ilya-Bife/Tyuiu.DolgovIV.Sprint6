@@ -31,83 +31,83 @@ namespace Tyuiu.DolgovIV.Sprint6.Task6.V29
         {
             components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
-            panelTop1_SAA = new Panel();
-            buttonHelp_SAA = new Button();
-            buttonDone_SAA = new Button();
-            buttonLoad_SAA = new Button();
+            panelTop1_DIV = new Panel();
+            buttonHelp_DIV = new Button();
+            buttonDone_DIV = new Button();
+            buttonLoad_DIV = new Button();
             panelTop2_SAA = new Panel();
-            groupBoxTask_SAA = new GroupBox();
-            textBoxTask_SAA = new TextBox();
+            groupBoxTask_DIV = new GroupBox();
+            textBoxTask_DIV = new TextBox();
             panelLeft_SAA = new Panel();
-            groupBoxIn_SAA = new GroupBox();
-            textBoxIn_SAA = new TextBox();
+            groupBoxIn_DIV = new GroupBox();
+            textBoxIn_DIV = new TextBox();
             panelRight_SAA = new Panel();
-            groupBoxOut_SAA = new GroupBox();
-            textBoxOut_SAA = new TextBox();
-            openFileDialogTask_SAA = new OpenFileDialog();
-            toolTip_SAA = new ToolTip(components);
-            panelTop1_SAA.SuspendLayout();
+            groupBoxOut_DIV = new GroupBox();
+            textBoxOut_DIV = new TextBox();
+            openFileDialogTask_DIV = new OpenFileDialog();
+            toolTip_DIV = new ToolTip(components);
+            panelTop1_DIV.SuspendLayout();
             panelTop2_SAA.SuspendLayout();
-            groupBoxTask_SAA.SuspendLayout();
+            groupBoxTask_DIV.SuspendLayout();
             panelLeft_SAA.SuspendLayout();
-            groupBoxIn_SAA.SuspendLayout();
+            groupBoxIn_DIV.SuspendLayout();
             panelRight_SAA.SuspendLayout();
-            groupBoxOut_SAA.SuspendLayout();
+            groupBoxOut_DIV.SuspendLayout();
             SuspendLayout();
             // 
-            // panelTop1_SAA
+            // panelTop1_DIV
             // 
-            panelTop1_SAA.Controls.Add(buttonHelp_SAA);
-            panelTop1_SAA.Controls.Add(buttonDone_SAA);
-            panelTop1_SAA.Controls.Add(buttonLoad_SAA);
-            panelTop1_SAA.Dock = DockStyle.Top;
-            panelTop1_SAA.Location = new Point(0, 0);
-            panelTop1_SAA.Margin = new Padding(4, 3, 4, 3);
-            panelTop1_SAA.Name = "panelTop1_SAA";
-            panelTop1_SAA.Size = new Size(1031, 66);
-            panelTop1_SAA.TabIndex = 0;
+            panelTop1_DIV.Controls.Add(buttonHelp_DIV);
+            panelTop1_DIV.Controls.Add(buttonDone_DIV);
+            panelTop1_DIV.Controls.Add(buttonLoad_DIV);
+            panelTop1_DIV.Dock = DockStyle.Top;
+            panelTop1_DIV.Location = new Point(0, 0);
+            panelTop1_DIV.Margin = new Padding(4, 3, 4, 3);
+            panelTop1_DIV.Name = "panelTop1_DIV";
+            panelTop1_DIV.Size = new Size(1031, 66);
+            panelTop1_DIV.TabIndex = 0;
             // 
-            // buttonHelp_SAA
+            // buttonHelp_DIV
             // 
-            buttonHelp_SAA.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            buttonHelp_SAA.Image = (Image)resources.GetObject("buttonHelp_SAA.Image");
-            buttonHelp_SAA.Location = new Point(940, 3);
-            buttonHelp_SAA.Margin = new Padding(4, 3, 4, 3);
-            buttonHelp_SAA.Name = "buttonHelp_SAA";
-            buttonHelp_SAA.Size = new Size(88, 59);
-            buttonHelp_SAA.TabIndex = 2;
-            toolTip_SAA.SetToolTip(buttonHelp_SAA, "Сведение о программе");
-            buttonHelp_SAA.UseVisualStyleBackColor = true;
-            buttonHelp_SAA.Click += buttonHelp_SAA_Click;
+            buttonHelp_DIV.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            buttonHelp_DIV.Image = (Image)resources.GetObject("buttonHelp_DIV.Image");
+            buttonHelp_DIV.Location = new Point(940, 3);
+            buttonHelp_DIV.Margin = new Padding(4, 3, 4, 3);
+            buttonHelp_DIV.Name = "buttonHelp_DIV";
+            buttonHelp_DIV.Size = new Size(88, 59);
+            buttonHelp_DIV.TabIndex = 2;
+            toolTip_DIV.SetToolTip(buttonHelp_DIV, "Сведение о программе");
+            buttonHelp_DIV.UseVisualStyleBackColor = true;
+            buttonHelp_DIV.Click += buttonHelp_DIV_Click;
             // 
-            // buttonDone_SAA
+            // buttonDone_DIV
             // 
-            buttonDone_SAA.Enabled = false;
-            buttonDone_SAA.Image = (Image)resources.GetObject("buttonDone_SAA.Image");
-            buttonDone_SAA.Location = new Point(98, 3);
-            buttonDone_SAA.Margin = new Padding(4, 3, 4, 3);
-            buttonDone_SAA.Name = "buttonDone_SAA";
-            buttonDone_SAA.Size = new Size(88, 59);
-            buttonDone_SAA.TabIndex = 1;
-            toolTip_SAA.SetToolTip(buttonDone_SAA, "Выводит слова, в которых встречается i, в результирующую строку");
-            buttonDone_SAA.UseVisualStyleBackColor = true;
-            buttonDone_SAA.Click += buttonDone_SAA_Click;
+            buttonDone_DIV.Enabled = false;
+            buttonDone_DIV.Image = (Image)resources.GetObject("buttonDone_DIV.Image");
+            buttonDone_DIV.Location = new Point(98, 3);
+            buttonDone_DIV.Margin = new Padding(4, 3, 4, 3);
+            buttonDone_DIV.Name = "buttonDone_DIV";
+            buttonDone_DIV.Size = new Size(88, 59);
+            buttonDone_DIV.TabIndex = 1;
+            toolTip_DIV.SetToolTip(buttonDone_DIV, "Выводит слова, в которых встречается i, в результирующую строку");
+            buttonDone_DIV.UseVisualStyleBackColor = true;
+            buttonDone_DIV.Click += buttonDone_DIV_Click;
             // 
-            // buttonLoad_SAA
+            // buttonLoad_DIV
             // 
-            buttonLoad_SAA.Image = (Image)resources.GetObject("buttonLoad_SAA.Image");
-            buttonLoad_SAA.Location = new Point(4, 3);
-            buttonLoad_SAA.Margin = new Padding(4, 3, 4, 3);
-            buttonLoad_SAA.Name = "buttonLoad_SAA";
-            buttonLoad_SAA.Size = new Size(88, 59);
-            buttonLoad_SAA.TabIndex = 0;
-            toolTip_SAA.SetToolTip(buttonLoad_SAA, "Открыть файл\r\nВыберите нужный файл для обработки");
-            buttonLoad_SAA.UseVisualStyleBackColor = true;
-            buttonLoad_SAA.Click += buttonLoad_SAA_Click;
+            buttonLoad_DIV.Image = (Image)resources.GetObject("buttonLoad_DIV.Image");
+            buttonLoad_DIV.Location = new Point(4, 3);
+            buttonLoad_DIV.Margin = new Padding(4, 3, 4, 3);
+            buttonLoad_DIV.Name = "buttonLoad_DIV";
+            buttonLoad_DIV.Size = new Size(88, 59);
+            buttonLoad_DIV.TabIndex = 0;
+            toolTip_DIV.SetToolTip(buttonLoad_DIV, "Открыть файл\r\nВыберите нужный файл для обработки");
+            buttonLoad_DIV.UseVisualStyleBackColor = true;
+            buttonLoad_DIV.Click += buttonLoad_DIV_Click;
             // 
             // panelTop2_SAA
             // 
-            panelTop2_SAA.Controls.Add(groupBoxTask_SAA);
+            panelTop2_SAA.Controls.Add(groupBoxTask_DIV);
             panelTop2_SAA.Dock = DockStyle.Top;
             panelTop2_SAA.Location = new Point(0, 66);
             panelTop2_SAA.Margin = new Padding(4, 3, 4, 3);
@@ -115,36 +115,36 @@ namespace Tyuiu.DolgovIV.Sprint6.Task6.V29
             panelTop2_SAA.Size = new Size(1031, 74);
             panelTop2_SAA.TabIndex = 1;
             // 
-            // groupBoxTask_SAA
+            // groupBoxTask_DIV
             // 
-            groupBoxTask_SAA.Controls.Add(textBoxTask_SAA);
-            groupBoxTask_SAA.Dock = DockStyle.Top;
-            groupBoxTask_SAA.Location = new Point(0, 0);
-            groupBoxTask_SAA.Margin = new Padding(4, 3, 4, 3);
-            groupBoxTask_SAA.Name = "groupBoxTask_SAA";
-            groupBoxTask_SAA.Padding = new Padding(4, 3, 4, 3);
-            groupBoxTask_SAA.Size = new Size(1031, 67);
-            groupBoxTask_SAA.TabIndex = 0;
-            groupBoxTask_SAA.TabStop = false;
-            groupBoxTask_SAA.Text = "Условие:";
+            groupBoxTask_DIV.Controls.Add(textBoxTask_DIV);
+            groupBoxTask_DIV.Dock = DockStyle.Top;
+            groupBoxTask_DIV.Location = new Point(0, 0);
+            groupBoxTask_DIV.Margin = new Padding(4, 3, 4, 3);
+            groupBoxTask_DIV.Name = "groupBoxTask_DIV";
+            groupBoxTask_DIV.Padding = new Padding(4, 3, 4, 3);
+            groupBoxTask_DIV.Size = new Size(1031, 67);
+            groupBoxTask_DIV.TabIndex = 0;
+            groupBoxTask_DIV.TabStop = false;
+            groupBoxTask_DIV.Text = "Условие:";
             // 
-            // textBoxTask_SAA
+            // textBoxTask_DIV
             // 
-            textBoxTask_SAA.BorderStyle = BorderStyle.None;
-            textBoxTask_SAA.Dock = DockStyle.Top;
-            textBoxTask_SAA.Location = new Point(4, 19);
-            textBoxTask_SAA.Margin = new Padding(4, 3, 4, 3);
-            textBoxTask_SAA.Multiline = true;
-            textBoxTask_SAA.Name = "textBoxTask_SAA";
-            textBoxTask_SAA.ReadOnly = true;
-            textBoxTask_SAA.Size = new Size(1023, 42);
-            textBoxTask_SAA.TabIndex = 0;
-            textBoxTask_SAA.Text = resources.GetString("textBoxTask_SAA.Text");
-            textBoxTask_SAA.TextChanged += textBoxTask_SAA_TextChanged;
+            textBoxTask_DIV.BorderStyle = BorderStyle.None;
+            textBoxTask_DIV.Dock = DockStyle.Top;
+            textBoxTask_DIV.Location = new Point(4, 19);
+            textBoxTask_DIV.Margin = new Padding(4, 3, 4, 3);
+            textBoxTask_DIV.Multiline = true;
+            textBoxTask_DIV.Name = "textBoxTask_DIV";
+            textBoxTask_DIV.ReadOnly = true;
+            textBoxTask_DIV.Size = new Size(1023, 42);
+            textBoxTask_DIV.TabIndex = 0;
+            textBoxTask_DIV.Text = resources.GetString("textBoxTask_DIV.Text");
+            textBoxTask_DIV.TextChanged += textBoxTask_DIV_TextChanged;
             // 
             // panelLeft_SAA
             // 
-            panelLeft_SAA.Controls.Add(groupBoxIn_SAA);
+            panelLeft_SAA.Controls.Add(groupBoxIn_DIV);
             panelLeft_SAA.Dock = DockStyle.Left;
             panelLeft_SAA.Location = new Point(0, 140);
             panelLeft_SAA.Margin = new Padding(4, 3, 4, 3);
@@ -152,34 +152,34 @@ namespace Tyuiu.DolgovIV.Sprint6.Task6.V29
             panelLeft_SAA.Size = new Size(531, 450);
             panelLeft_SAA.TabIndex = 2;
             // 
-            // groupBoxIn_SAA
+            // groupBoxIn_DIV
             // 
-            groupBoxIn_SAA.Controls.Add(textBoxIn_SAA);
-            groupBoxIn_SAA.Dock = DockStyle.Left;
-            groupBoxIn_SAA.Location = new Point(0, 0);
-            groupBoxIn_SAA.Margin = new Padding(4, 3, 4, 3);
-            groupBoxIn_SAA.Name = "groupBoxIn_SAA";
-            groupBoxIn_SAA.Padding = new Padding(4, 3, 4, 3);
-            groupBoxIn_SAA.Size = new Size(527, 450);
-            groupBoxIn_SAA.TabIndex = 0;
-            groupBoxIn_SAA.TabStop = false;
-            groupBoxIn_SAA.Text = "Ввод:";
+            groupBoxIn_DIV.Controls.Add(textBoxIn_DIV);
+            groupBoxIn_DIV.Dock = DockStyle.Left;
+            groupBoxIn_DIV.Location = new Point(0, 0);
+            groupBoxIn_DIV.Margin = new Padding(4, 3, 4, 3);
+            groupBoxIn_DIV.Name = "groupBoxIn_DIV";
+            groupBoxIn_DIV.Padding = new Padding(4, 3, 4, 3);
+            groupBoxIn_DIV.Size = new Size(527, 450);
+            groupBoxIn_DIV.TabIndex = 0;
+            groupBoxIn_DIV.TabStop = false;
+            groupBoxIn_DIV.Text = "Ввод:";
             // 
-            // textBoxIn_SAA
+            // textBoxIn_DIV
             // 
-            textBoxIn_SAA.Dock = DockStyle.Left;
-            textBoxIn_SAA.Location = new Point(4, 19);
-            textBoxIn_SAA.Margin = new Padding(4, 3, 4, 3);
-            textBoxIn_SAA.Multiline = true;
-            textBoxIn_SAA.Name = "textBoxIn_SAA";
-            textBoxIn_SAA.ReadOnly = true;
-            textBoxIn_SAA.ScrollBars = ScrollBars.Vertical;
-            textBoxIn_SAA.Size = new Size(516, 428);
-            textBoxIn_SAA.TabIndex = 0;
+            textBoxIn_DIV.Dock = DockStyle.Left;
+            textBoxIn_DIV.Location = new Point(4, 19);
+            textBoxIn_DIV.Margin = new Padding(4, 3, 4, 3);
+            textBoxIn_DIV.Multiline = true;
+            textBoxIn_DIV.Name = "textBoxIn_DIV";
+            textBoxIn_DIV.ReadOnly = true;
+            textBoxIn_DIV.ScrollBars = ScrollBars.Vertical;
+            textBoxIn_DIV.Size = new Size(516, 428);
+            textBoxIn_DIV.TabIndex = 0;
             // 
             // panelRight_SAA
             // 
-            panelRight_SAA.Controls.Add(groupBoxOut_SAA);
+            panelRight_SAA.Controls.Add(groupBoxOut_DIV);
             panelRight_SAA.Dock = DockStyle.Fill;
             panelRight_SAA.Location = new Point(531, 140);
             panelRight_SAA.Margin = new Padding(4, 3, 4, 3);
@@ -187,39 +187,39 @@ namespace Tyuiu.DolgovIV.Sprint6.Task6.V29
             panelRight_SAA.Size = new Size(500, 450);
             panelRight_SAA.TabIndex = 3;
             // 
-            // groupBoxOut_SAA
+            // groupBoxOut_DIV
             // 
-            groupBoxOut_SAA.Controls.Add(textBoxOut_SAA);
-            groupBoxOut_SAA.Dock = DockStyle.Fill;
-            groupBoxOut_SAA.Location = new Point(0, 0);
-            groupBoxOut_SAA.Margin = new Padding(4, 3, 4, 3);
-            groupBoxOut_SAA.Name = "groupBoxOut_SAA";
-            groupBoxOut_SAA.Padding = new Padding(4, 3, 4, 3);
-            groupBoxOut_SAA.Size = new Size(500, 450);
-            groupBoxOut_SAA.TabIndex = 0;
-            groupBoxOut_SAA.TabStop = false;
-            groupBoxOut_SAA.Text = "Вывод:";
+            groupBoxOut_DIV.Controls.Add(textBoxOut_DIV);
+            groupBoxOut_DIV.Dock = DockStyle.Fill;
+            groupBoxOut_DIV.Location = new Point(0, 0);
+            groupBoxOut_DIV.Margin = new Padding(4, 3, 4, 3);
+            groupBoxOut_DIV.Name = "groupBoxOut_DIV";
+            groupBoxOut_DIV.Padding = new Padding(4, 3, 4, 3);
+            groupBoxOut_DIV.Size = new Size(500, 450);
+            groupBoxOut_DIV.TabIndex = 0;
+            groupBoxOut_DIV.TabStop = false;
+            groupBoxOut_DIV.Text = "Вывод:";
             // 
-            // textBoxOut_SAA
+            // textBoxOut_DIV
             // 
-            textBoxOut_SAA.Dock = DockStyle.Fill;
-            textBoxOut_SAA.Location = new Point(4, 19);
-            textBoxOut_SAA.Margin = new Padding(4, 3, 4, 3);
-            textBoxOut_SAA.Multiline = true;
-            textBoxOut_SAA.Name = "textBoxOut_SAA";
-            textBoxOut_SAA.ReadOnly = true;
-            textBoxOut_SAA.ScrollBars = ScrollBars.Vertical;
-            textBoxOut_SAA.Size = new Size(492, 428);
-            textBoxOut_SAA.TabIndex = 0;
+            textBoxOut_DIV.Dock = DockStyle.Fill;
+            textBoxOut_DIV.Location = new Point(4, 19);
+            textBoxOut_DIV.Margin = new Padding(4, 3, 4, 3);
+            textBoxOut_DIV.Multiline = true;
+            textBoxOut_DIV.Name = "textBoxOut_DIV";
+            textBoxOut_DIV.ReadOnly = true;
+            textBoxOut_DIV.ScrollBars = ScrollBars.Vertical;
+            textBoxOut_DIV.Size = new Size(492, 428);
+            textBoxOut_DIV.TabIndex = 0;
             // 
-            // openFileDialogTask_SAA
+            // openFileDialogTask_DIV
             // 
-            openFileDialogTask_SAA.FileName = "openFileDialog1";
+            openFileDialogTask_DIV.FileName = "openFileDialog1";
             // 
-            // toolTip_SAA
+            // toolTip_DIV
             // 
-            toolTip_SAA.ToolTipIcon = ToolTipIcon.Info;
-            toolTip_SAA.ToolTipTitle = "Подсказка";
+            toolTip_DIV.ToolTipIcon = ToolTipIcon.Info;
+            toolTip_DIV.ToolTipTitle = "Подсказка";
             // 
             // FormMain
             // 
@@ -229,43 +229,43 @@ namespace Tyuiu.DolgovIV.Sprint6.Task6.V29
             Controls.Add(panelRight_SAA);
             Controls.Add(panelLeft_SAA);
             Controls.Add(panelTop2_SAA);
-            Controls.Add(panelTop1_SAA);
+            Controls.Add(panelTop1_DIV);
             Margin = new Padding(4, 3, 4, 3);
             MinimumSize = new Size(1047, 629);
             Name = "FormMain";
             StartPosition = FormStartPosition.CenterParent;
-            Text = "Спринт 6 | Таск 6 | Вариант 29 | Самар А. А.";
-            panelTop1_SAA.ResumeLayout(false);
+            Text = "Спринт 6 | Таск 6 | Вариант 29 | Долгов И.В.";
+            panelTop1_DIV.ResumeLayout(false);
             panelTop2_SAA.ResumeLayout(false);
-            groupBoxTask_SAA.ResumeLayout(false);
-            groupBoxTask_SAA.PerformLayout();
+            groupBoxTask_DIV.ResumeLayout(false);
+            groupBoxTask_DIV.PerformLayout();
             panelLeft_SAA.ResumeLayout(false);
-            groupBoxIn_SAA.ResumeLayout(false);
-            groupBoxIn_SAA.PerformLayout();
+            groupBoxIn_DIV.ResumeLayout(false);
+            groupBoxIn_DIV.PerformLayout();
             panelRight_SAA.ResumeLayout(false);
-            groupBoxOut_SAA.ResumeLayout(false);
-            groupBoxOut_SAA.PerformLayout();
+            groupBoxOut_DIV.ResumeLayout(false);
+            groupBoxOut_DIV.PerformLayout();
             ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Panel panelTop1_SAA;
-        private System.Windows.Forms.Button buttonHelp_SAA;
-        private System.Windows.Forms.Button buttonDone_SAA;
-        private System.Windows.Forms.Button buttonLoad_SAA;
+        private System.Windows.Forms.Panel panelTop1_DIV;
+        private System.Windows.Forms.Button buttonHelp_DIV;
+        private System.Windows.Forms.Button buttonDone_DIV;
+        private System.Windows.Forms.Button buttonLoad_DIV;
         private System.Windows.Forms.Panel panelTop2_SAA;
-        private System.Windows.Forms.GroupBox groupBoxTask_SAA;
-        private System.Windows.Forms.TextBox textBoxTask_SAA;
+        private System.Windows.Forms.GroupBox groupBoxTask_DIV;
+        private System.Windows.Forms.TextBox textBoxTask_DIV;
         private System.Windows.Forms.Panel panelLeft_SAA;
-        private System.Windows.Forms.GroupBox groupBoxIn_SAA;
-        private System.Windows.Forms.TextBox textBoxIn_SAA;
+        private System.Windows.Forms.GroupBox groupBoxIn_DIV;
+        private System.Windows.Forms.TextBox textBoxIn_DIV;
         private System.Windows.Forms.Panel panelRight_SAA;
-        private System.Windows.Forms.GroupBox groupBoxOut_SAA;
-        private System.Windows.Forms.TextBox textBoxOut_SAA;
-        private System.Windows.Forms.ToolTip toolTip_SAA;
-        private System.Windows.Forms.OpenFileDialog openFileDialogTask_SAA;
+        private System.Windows.Forms.GroupBox groupBoxOut_DIV;
+        private System.Windows.Forms.TextBox textBoxOut_DIV;
+        private System.Windows.Forms.ToolTip toolTip_DIV;
+        private System.Windows.Forms.OpenFileDialog openFileDialogTask_DIV;
     }
 }
 

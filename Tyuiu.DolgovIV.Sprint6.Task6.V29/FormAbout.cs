@@ -1,14 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-
-namespace Tyuiu.SamarAA.Sprint6.Task6.V29
+﻿
+namespace Tyuiu.DolgovIV.Sprint6.Task6.V29
 {
     public partial class FormAbout : Form
     {
@@ -17,9 +8,14 @@ namespace Tyuiu.SamarAA.Sprint6.Task6.V29
             InitializeComponent();
         }
 
-        private void buttonOk_SAA_Click(object sender, EventArgs e)
+        private void buttonOk_DIV_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void labelAbout_DIV_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

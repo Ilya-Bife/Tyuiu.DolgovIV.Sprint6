@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="buttonHelp_SAA.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="buttonHelp_DIV.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
         dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAibSURBVFhHnVYHVJRXFp4c15w1e9ZIGSCu7rpqRI0r
@@ -161,10 +161,10 @@
         IjStQ0E66iObUY/4fzWBJDh6tpWuAAAAAElFTkSuQmCC
 </value>
   </data>
-  <metadata name="toolTip_SAA.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <metadata name="toolTip_DIV.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>202, 17</value>
   </metadata>
-  <data name="buttonDone_SAA.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="buttonDone_DIV.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
         dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAPVSURBVFhHtZfLbxtVFId/Eq9VxUPAv8Cmoi8BQoK2
@@ -187,7 +187,7 @@
         AAAASUVORK5CYII=
 </value>
   </data>
-  <data name="buttonLoad_SAA.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="buttonLoad_DIV.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
         dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAVgSURBVFhHxZdpbFRVGIYPLgGJ4EKYxBjRRBNNxBiX
@@ -216,10 +216,10 @@
         3+eHyu1IFqIMJq9IpnUg5Dg5vs9Ptf9U/wAV4Qo0/hOsyAAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="textBoxTask_SAA.Text" xml:space="preserve">
+  <data name="textBoxTask_DIV.Text" xml:space="preserve">
     <value>Дан файл InPutFileTask6V29.txt который может находится в любом месте на диске. Загрузить файл в textBoxIn через openFileDialog. Вывести слова, в которых встречается i, в результирующую строку и вывести ее в textBoxOut.</value>
   </data>
-  <metadata name="openFileDialogTask_SAA.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <metadata name="openFileDialogTask_DIV.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
 </root>
