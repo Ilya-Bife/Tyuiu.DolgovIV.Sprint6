@@ -54,7 +54,7 @@ namespace Tyuiu.DolgovIV.Sprint6.Task7.V13
             dataGridViewInPut_DIV.ColumnCount = columns;
             dataGridViewInPut_DIV.RowCount = rows;
             dataGridViewOutPut_DIV.ColumnCount = columns;
-            dataGridViewOutPut_DIV.RowCount = columns;
+            dataGridViewOutPut_DIV.RowCount = rows;
 
             for (int i = 0; i <= columns; i++)
             {
@@ -162,6 +162,11 @@ namespace Tyuiu.DolgovIV.Sprint6.Task7.V13
         }
 
         private void splitter1_SplitterMoved(object sender, SplitterEventArgs e)
+        {
+
+        }
+
+        private void textBoxInfo_DIV_TextChanged(object sender, EventArgs e)
         {
 
         }

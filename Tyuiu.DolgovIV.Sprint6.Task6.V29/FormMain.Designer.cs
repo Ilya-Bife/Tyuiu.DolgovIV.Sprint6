@@ -211,6 +211,7 @@ namespace Tyuiu.DolgovIV.Sprint6.Task6.V29
             textBoxOut_DIV.ScrollBars = ScrollBars.Vertical;
             textBoxOut_DIV.Size = new Size(492, 428);
             textBoxOut_DIV.TabIndex = 0;
+            textBoxOut_DIV.TextChanged += textBoxOut_DIV_TextChanged;
             // 
             // openFileDialogTask_DIV
             // 

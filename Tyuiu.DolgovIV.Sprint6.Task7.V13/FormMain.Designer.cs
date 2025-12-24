@@ -72,6 +72,7 @@
             textBoxInfo_DIV.Size = new Size(1163, 79);
             textBoxInfo_DIV.TabIndex = 2;
             textBoxInfo_DIV.Text = "Дан файл: ";
+            textBoxInfo_DIV.TextChanged += textBoxInfo_DIV_TextChanged;
             // 
             // buttonOpenFile_DIV
             // 

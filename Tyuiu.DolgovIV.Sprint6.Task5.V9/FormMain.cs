@@ -50,5 +50,10 @@ namespace Tyuiu.DolgovIV.Sprint6.Task5.V9
         {
 
         }
+
+        private void dataGridViewNums_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

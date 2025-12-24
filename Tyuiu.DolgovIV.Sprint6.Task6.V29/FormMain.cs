@@ -29,10 +29,15 @@ namespace Tyuiu.DolgovIV.Sprint6.Task6.V29
 
         private void buttonHelp_DIV_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void textBoxTask_DIV_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBoxOut_DIV_TextChanged(object sender, EventArgs e)
         {
 
         }

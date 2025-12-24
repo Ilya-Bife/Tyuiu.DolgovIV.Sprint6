@@ -11,7 +11,7 @@ namespace Tyuiu.DolgovIV.Sprint6.Task3.V28
 
         DataService dataService = new DataService();
         int[,] matr = new int[5, 5] { { -9, 8, 9, 16, -18 }, { -13, -11, -20, -15, 9 }, { 18, 13, -12, -15, -11 }, { 10, -2, 19, -4, -10, }, { 6, -20, -4, 13, -14 } };
-        
+
         private void FormMain_Load(object sender, EventArgs e)
         {
             int row = matr.GetUpperBound(0) + 1;
@@ -62,6 +62,11 @@ namespace Tyuiu.DolgovIV.Sprint6.Task3.V28
         private void buttonMessage_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Таск 3. Выполнил студент группы АСОиУБ-25-1 Долгов Илья Витальевич", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Question);
+        }
+
+        private void dataGridViewMatrix_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

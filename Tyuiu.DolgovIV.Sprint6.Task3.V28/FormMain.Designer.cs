@@ -63,6 +63,7 @@
             dataGridViewMatrix.Name = "dataGridViewMatrix";
             dataGridViewMatrix.Size = new Size(240, 150);
             dataGridViewMatrix.TabIndex = 2;
+            dataGridViewMatrix.CellContentClick += dataGridViewMatrix_CellContentClick;
             // 
             // buttonComplete
             // 

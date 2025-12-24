@@ -15,7 +15,7 @@ namespace Tyuiu.DolgovIV.Sprint6.Task4.V5
 
         private void ButtonDone_Click(object sender, EventArgs e)
         {
-            try 
+            try
             {
                 int startStep = Convert.ToInt32(textBoxStartInput.Text);
                 int stopStep = Convert.ToInt32(textBoxEndInput.Text);
@@ -68,6 +68,11 @@ namespace Tyuiu.DolgovIV.Sprint6.Task4.V5
             {
                 MessageBox.Show("—бой в сохранении данных", "ќшибка", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
+        }
+
+        private void textBoxResult_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

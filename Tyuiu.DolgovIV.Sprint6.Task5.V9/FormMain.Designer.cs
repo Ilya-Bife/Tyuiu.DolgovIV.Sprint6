@@ -89,6 +89,7 @@
             dataGridViewNums.Name = "dataGridViewNums";
             dataGridViewNums.Size = new Size(240, 518);
             dataGridViewNums.TabIndex = 3;
+            dataGridViewNums.CellContentClick += dataGridViewNums_CellContentClick;
             // 
             // FormMain
             // 

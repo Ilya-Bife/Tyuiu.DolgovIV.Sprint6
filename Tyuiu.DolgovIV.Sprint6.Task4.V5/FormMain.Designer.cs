@@ -125,6 +125,7 @@
             textBoxResult.Name = "textBoxResult";
             textBoxResult.Size = new Size(292, 371);
             textBoxResult.TabIndex = 0;
+            textBoxResult.TextChanged += textBoxResult_TextChanged;
             // 
             // buttonDone
             // 
